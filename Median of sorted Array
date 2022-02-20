@@ -1,0 +1,16 @@
+#include<iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+	int A[]={ 90, 100, 78, 89, 67 };
+	int n=sizeof(A)/sizeof(A[0]);
+	int m=n/2;
+	
+	sort(A, A+n);
+	
+	cout<<A[m];
+	
+}
